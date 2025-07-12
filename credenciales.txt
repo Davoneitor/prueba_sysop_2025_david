@@ -1,0 +1,17 @@
+suarios y Contraseñas de Perfiles del Proyecto
+A continuación, se detallan los usuarios y contraseñas para los perfiles disponibles en el proyecto:
+
+Perfil Administrador
+Correo: admin3@example.com
+
+Contraseña: 12345678
+
+Acceso: Este perfil tiene acceso total a todas las funcionalidades y módulos del sistema.
+
+Perfil Ventas
+Correo: admin4@example.com
+
+Contraseña: 12345678
+
+Acceso: Este perfil tiene acceso limitado y solo puede ver la parte de presentación. No tiene permisos para acceder o modificar otras áreas del sistema.
+

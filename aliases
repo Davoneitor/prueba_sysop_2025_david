@@ -1,0 +1,22 @@
+
+   Error 
+
+  Object of class Closure could not be converted to string
+
+  at vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:121
+    [90m117[0m[90m▕ [0m[35;1m        }[0m
+    [90m118[0m[90m▕ [0m
+    [90m119[0m[90m▕ [0m[35;1m        if ([0m[39;1m$key [0m[35;1m=== [0m[37m'middleware'[0m[35;1m) {[0m
+    [90m120[0m[90m▕ [0m[35;1m            foreach ([0m[39;1m$value [0m[35;1mas [0m[39;1m$index [0m[35;1m=> [0m[39;1m$middleware[0m[35;1m) {[0m
+[31;1m  ➜ [0m[3;1m121[0m[90m▕ [0m[35;1m                [0m[39;1m$value[0m[35;1m[[0m[39;1m$index[0m[35;1m] = (string) [0m[39;1m$middleware[0m[35;1m;[0m
+    [90m122[0m[90m▕ [0m[35;1m            }[0m
+    [90m123[0m[90m▕ [0m[35;1m        }[0m
+    [90m124[0m[90m▕ [0m
+    [90m125[0m[90m▕ [0m[35;1m        [0m[39;1m$attributeKey [0m[35;1m= [0m[39;1mArr[0m[35;1m::[0m[39;1mget[0m[35;1m([0m[39;1m$this[0m[35;1m->[0m[39;1maliases[0m[35;1m, [0m[39;1m$key[0m[35;1m, [0m[39;1m$key[0m[35;1m);[0m
+
+  1   vendor\laravel\framework\src\Illuminate\Routing\Router.php:1501
+      Illuminate\Routing\RouteRegistrar::attribute("middleware")
+
+  2   vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:361
+      Illuminate\Routing\Router::__call("middleware")
+
